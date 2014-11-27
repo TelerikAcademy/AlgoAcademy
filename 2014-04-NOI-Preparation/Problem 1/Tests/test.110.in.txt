@@ -1,0 +1,27 @@
+26 44
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.GRG.B.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.GBGGGBGRG.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.GBG.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.
+G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.

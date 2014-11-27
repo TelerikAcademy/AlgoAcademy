@@ -1,0 +1,8 @@
+7 5
+RR.RR
+RR.RR
+GG.GG
+GG.GG
+.....
+GG.GG
+GG.GG

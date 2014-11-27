@@ -1,0 +1,10 @@
+1
+test
+3
+move 5 5
+rotate 45
+move -5 -7
+1
+0 0
+1
+test 0 0
