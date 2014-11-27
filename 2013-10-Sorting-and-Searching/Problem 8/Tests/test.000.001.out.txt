@@ -1,0 +1,5 @@
+George 1 21 MALE
+Petya 5 20 FEMALE
+Doncho 4 -1 MALE
+George 1 21 MALE 
+Petya 5 20 FEMALE Cutie

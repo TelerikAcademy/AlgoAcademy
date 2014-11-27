@@ -1,0 +1,6 @@
+abc
+cba
+bac
+acb
+cab
+-1

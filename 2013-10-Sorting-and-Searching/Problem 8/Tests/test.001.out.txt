@@ -1,0 +1,4 @@
+Status 0 CourseOverview courseprogram,trainers,evaluation,teamwork 0.5h 0h Wednesday Doncho
+new 1 XAMLOverview XAML,WPF,Silverlight,Win8storeapplications,WindowsPhone 1h 0h Wednesday Joro
+needsupdate 2 XAMLBasics Elements,attributes,namespaces,controls,graphics 1h 1h Wednesday Joro
+needsupdate 3 LayoutControls LayoutinXAML,StackPanel,WrapPanel,Grid,Canvas,DockPanel,TabControl,Border 2h 2h Wednesday Joro

@@ -1,0 +1,8 @@
+creation
+sentence
+reaction
+sneak
+star
+rats
+snake
+-1

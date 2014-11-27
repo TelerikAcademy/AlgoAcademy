@@ -1,0 +1,18 @@
+5
+4
+Name	Number	Age	Gender
+George	1	21	MALE
+Asya	2	23	FEMALE
+Nakov	3	500	MALE
+Doncho	4	-1	MALE
+Petya	5	20	FEMALE
+get 0
+sort 2 Gender Age
+get 0
+get 2
+column Nickname
+set 0 Nickname Cutie
+sort 2 Nickname Number
+get 0
+get 4
+end

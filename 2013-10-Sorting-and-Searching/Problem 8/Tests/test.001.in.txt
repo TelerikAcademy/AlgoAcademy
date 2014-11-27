@@ -1,0 +1,24 @@
+15 8
+#	Title	Description	Presentation	Exercises	Day	Date	Trainer	Status
+0	CourseOverview	courseprogram,trainers,evaluation,teamwork	0.5h	0h	Wednesday	Doncho	new
+1	XAMLOverview	XAML,WPF,Silverlight,Win8storeapplications,WindowsPhone	1h	0h	Wednesday	Joro	needsupdate
+2	XAMLBasics	Elements,attributes,namespaces,controls,graphics	1h	1h	Wednesday	Joro	needsupdate
+3	LayoutControls	LayoutinXAML,StackPanel,WrapPanel,Grid,Canvas,DockPanel,TabControl,Border	2h	2h	Wednesday	Joro	done
+4	XAMLControls	Controls,Buttons,Grid,ListView,ComboBox,TextBox,TextBlock,Labels	2h	2h	Thursday	Ivaylo	done
+5	XAMLDataBinding	Simpledatabinding,DataContexts,ViewModels,	2h	3h	Thursday	Doncho	done
+6	Templates	DataTemplate,ItemTemplate,ItemsContainer,	1h	1h	Monday	Doncho	needsupdate
+7	ComplexBinding	ICollectionViewSource,currentelement,Bindinglistcontrols,Master-detailsview	3h	3h	Monday	Doncho	needsupdate
+8	XAMLConcepts	Dependencyandattachedproperties,attachedbehavior,resources,visualandlogicaltrees,commands	4h	4h	Tuesday	Doncho	notfull
+9	Model-View-ViewModelArhictecture	MVVMoverview,ViewModels,INotifyPropertyChanged,PropertyChangedevent	3h	4h	Wednesday	Doncho	needsupdate
+10	Styling	StylingXAMLcontrols,triggers	1h	1h	Wednesday	Doncho	needsupdate
+11	ExamPreparation	DevelopingaWPFapplicationusingMVVMandconsumingRESTfulAPI	wholeday	0h	Thursday	Doncho	new
+12	Teamwork	DevelopingaWPFapplicationwithaWebAPIRESTfulservicesusingMVVM	0h	wholeday	Friday	Doncho	new
+13	Teamwork	DevelopingaWPFapplicationwithaWebAPIRESTfulservicesusingMVVM	0h	wholeday	Monday	Doncho	new
+14	PracticalExam	DevelopingaWPFapplicationusingMVVMandconsumingRESTfulAPI	0h	8h	Tuesday	Doncho	new
+sort 2 Title #
+get 0
+get 1
+get 2
+get 3
+end
+

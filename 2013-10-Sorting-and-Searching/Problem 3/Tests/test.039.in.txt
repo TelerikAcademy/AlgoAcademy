@@ -1,0 +1,6 @@
+abc
+abcd
+abce
+bacd
+acdb
+-1
