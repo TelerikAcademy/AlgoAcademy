@@ -1,0 +1,101 @@
+25
+guy_82
+m
+4
+interest_66 interest_1 interest_18 interest_42
+guy_225
+m
+1
+interest_118
+guy_116
+m
+0
+
+guy_19
+m
+2
+interest_148 interest_148
+guy_209
+m
+0
+
+guy_92
+m
+1
+interest_1
+guy_117
+m
+3
+interest_66 interest_18 interest_148
+guy_87
+m
+1
+interest_1
+guy_179
+m
+2
+interest_148 interest_81
+guy_97
+m
+2
+interest_18 interest_227
+guy_106
+m
+2
+interest_227 interest_81
+guy_86
+m
+3
+interest_126 interest_18 interest_11
+guy_14
+m
+1
+interest_118
+girl_165
+f
+0
+
+girl_36
+f
+1
+interest_148
+girl_247
+f
+0
+
+girl_74
+f
+2
+interest_18 interest_148
+girl_192
+f
+1
+interest_118
+girl_168
+f
+2
+interest_18 interest_81
+girl_107
+f
+0
+
+girl_47
+f
+1
+interest_81
+girl_138
+f
+1
+interest_1
+girl_153
+f
+2
+interest_118 interest_11
+girl_127
+f
+0
+
+girl_157
+f
+1
+interest_118

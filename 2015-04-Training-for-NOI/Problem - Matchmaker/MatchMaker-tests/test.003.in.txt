@@ -1,0 +1,301 @@
+75
+guy_151
+m
+14
+interest_72 interest_85 interest_54 interest_11 interest_80 interest_41 interest_11 interest_237 interest_195 interest_158 interest_155 interest_40 interest_19 interest_244
+guy_88
+m
+7
+interest_54 interest_237 interest_19 interest_237 interest_85 interest_113 interest_72
+guy_99
+m
+7
+interest_11 interest_244 interest_56 interest_19 interest_87 interest_138 interest_109
+guy_186
+m
+9
+interest_230 interest_56 interest_193 interest_54 interest_109 interest_237 interest_19 interest_11 interest_81
+guy_66
+m
+10
+interest_11 interest_195 interest_219 interest_195 interest_219 interest_237 interest_40 interest_230 interest_233 interest_40
+guy_221
+m
+5
+interest_192 interest_40 interest_113 interest_81 interest_237
+guy_109
+m
+4
+interest_230 interest_165 interest_158 interest_233
+guy_202
+m
+1
+interest_72
+guy_208
+m
+9
+interest_60 interest_155 interest_118 interest_158 interest_165 interest_138 interest_230 interest_119 interest_119
+guy_213
+m
+10
+interest_233 interest_193 interest_158 interest_138 interest_11 interest_56 interest_60 interest_11 interest_155 interest_184
+guy_148
+m
+13
+interest_40 interest_158 interest_19 interest_128 interest_19 interest_72 interest_87 interest_81 interest_54 interest_128 interest_19 interest_192 interest_113
+guy_234
+m
+4
+interest_81 interest_19 interest_60 interest_19
+guy_220
+m
+0
+
+guy_132
+m
+0
+
+guy_93
+m
+6
+interest_119 interest_219 interest_230 interest_87 interest_60 interest_230
+guy_79
+m
+8
+interest_244 interest_40 interest_165 interest_184 interest_72 interest_219 interest_244 interest_113
+guy_91
+m
+4
+interest_233 interest_237 interest_11 interest_41
+guy_3
+m
+1
+interest_80
+guy_61
+m
+11
+interest_155 interest_237 interest_72 interest_60 interest_41 interest_40 interest_128 interest_19 interest_54 interest_113 interest_56
+guy_145
+m
+10
+interest_230 interest_40 interest_80 interest_184 interest_244 interest_155 interest_72 interest_233 interest_128 interest_40
+guy_247
+m
+5
+interest_11 interest_138 interest_219 interest_41 interest_193
+guy_177
+m
+0
+
+guy_101
+m
+12
+interest_11 interest_192 interest_192 interest_138 interest_192 interest_87 interest_113 interest_237 interest_113 interest_219 interest_219 interest_80
+guy_229
+m
+13
+interest_138 interest_219 interest_118 interest_155 interest_219 interest_56 interest_195 interest_87 interest_40 interest_56 interest_109 interest_11 interest_72
+guy_233
+m
+12
+interest_60 interest_244 interest_119 interest_193 interest_165 interest_80 interest_155 interest_237 interest_87 interest_11 interest_87 interest_60
+guy_166
+m
+1
+interest_195
+guy_77
+m
+6
+interest_165 interest_192 interest_19 interest_219 interest_109 interest_184
+guy_120
+m
+7
+interest_40 interest_128 interest_72 interest_230 interest_233 interest_19 interest_60
+guy_231
+m
+10
+interest_138 interest_128 interest_230 interest_244 interest_138 interest_54 interest_72 interest_109 interest_237 interest_80
+guy_115
+m
+0
+
+guy_62
+m
+13
+interest_109 interest_40 interest_60 interest_237 interest_109 interest_195 interest_195 interest_184 interest_184 interest_158 interest_230 interest_81 interest_192
+guy_157
+m
+9
+interest_155 interest_72 interest_230 interest_118 interest_119 interest_128 interest_155 interest_193 interest_109
+guy_34
+m
+1
+interest_230
+guy_193
+m
+1
+interest_138
+guy_60
+m
+1
+interest_54
+guy_238
+m
+7
+interest_56 interest_158 interest_230 interest_109 interest_109 interest_237 interest_113
+guy_136
+m
+11
+interest_219 interest_192 interest_54 interest_60 interest_193 interest_85 interest_85 interest_119 interest_195 interest_72 interest_193
+guy_9
+m
+0
+
+girl_57
+f
+5
+interest_80 interest_40 interest_60 interest_113 interest_81
+girl_244
+f
+6
+interest_165 interest_80 interest_113 interest_128 interest_41 interest_219
+girl_60
+f
+4
+interest_237 interest_128 interest_118 interest_244
+girl_97
+f
+4
+interest_184 interest_128 interest_19 interest_72
+girl_137
+f
+2
+interest_54 interest_40
+girl_93
+f
+6
+interest_113 interest_237 interest_230 interest_81 interest_85 interest_56
+girl_81
+f
+1
+interest_85
+girl_77
+f
+3
+interest_230 interest_192 interest_60
+girl_121
+f
+4
+interest_193 interest_155 interest_19 interest_109
+girl_174
+f
+6
+interest_19 interest_165 interest_237 interest_193 interest_219 interest_155
+girl_3
+f
+4
+interest_165 interest_192 interest_219 interest_109
+girl_233
+f
+5
+interest_109 interest_81 interest_72 interest_81 interest_72
+girl_70
+f
+1
+interest_87
+girl_206
+f
+1
+interest_237
+girl_74
+f
+3
+interest_40 interest_81 interest_158
+girl_94
+f
+5
+interest_113 interest_109 interest_237 interest_113 interest_81
+girl_82
+f
+6
+interest_230 interest_11 interest_41 interest_80 interest_56 interest_219
+girl_23
+f
+4
+interest_237 interest_158 interest_244 interest_165
+girl_129
+f
+1
+interest_193
+girl_33
+f
+3
+interest_19 interest_192 interest_118
+girl_188
+f
+0
+
+girl_92
+f
+0
+
+girl_90
+f
+7
+interest_230 interest_138 interest_80 interest_80 interest_119 interest_237 interest_233
+girl_79
+f
+7
+interest_230 interest_109 interest_85 interest_165 interest_158 interest_158 interest_87
+girl_91
+f
+5
+interest_11 interest_193 interest_80 interest_165 interest_11
+girl_104
+f
+4
+interest_192 interest_195 interest_219 interest_113
+girl_155
+f
+3
+interest_41 interest_54 interest_192
+girl_89
+f
+1
+interest_11
+girl_138
+f
+3
+interest_109 interest_113 interest_11
+girl_245
+f
+1
+interest_40
+girl_134
+f
+4
+interest_219 interest_60 interest_165 interest_193
+girl_191
+f
+5
+interest_81 interest_40 interest_40 interest_80 interest_158
+girl_128
+f
+7
+interest_11 interest_158 interest_41 interest_85 interest_237 interest_56 interest_244
+girl_192
+f
+3
+interest_233 interest_219 interest_195
+girl_236
+f
+5
+interest_233 interest_233 interest_118 interest_244 interest_11
+girl_50
+f
+5
+interest_54 interest_128 interest_80 interest_195 interest_119
+girl_30
+f
+0
+

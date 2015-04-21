@@ -1,0 +1,25 @@
+6
+Pesho
+m
+1
+ski
+Gosho
+m
+3
+chalga ski batman
+Ivancho
+m
+2
+batman ski
+Mariika
+f
+1
+chalga
+Petra
+f
+3
+chalga batman ski
+Elena
+f
+1
+batman

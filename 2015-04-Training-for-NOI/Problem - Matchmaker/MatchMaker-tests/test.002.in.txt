@@ -1,0 +1,201 @@
+50
+guy_6
+m
+1
+interest_221
+guy_187
+m
+8
+interest_184 interest_58 interest_148 interest_9 interest_9 interest_58 interest_116 interest_42
+guy_192
+m
+4
+interest_15 interest_58 interest_9 interest_115
+guy_217
+m
+3
+interest_144 interest_46 interest_76
+guy_146
+m
+8
+interest_115 interest_140 interest_15 interest_46 interest_46 interest_116 interest_42 interest_76
+guy_181
+m
+1
+interest_156
+guy_244
+m
+4
+interest_144 interest_51 interest_42 interest_140
+guy_92
+m
+4
+interest_148 interest_144 interest_15 interest_76
+guy_174
+m
+0
+
+guy_43
+m
+4
+interest_95 interest_184 interest_58 interest_76
+guy_200
+m
+6
+interest_156 interest_15 interest_184 interest_15 interest_156 interest_221
+guy_132
+m
+0
+
+guy_185
+m
+5
+interest_15 interest_23 interest_76 interest_60 interest_68
+guy_62
+m
+1
+interest_23
+guy_16
+m
+7
+interest_51 interest_156 interest_68 interest_58 interest_51 interest_9 interest_221
+guy_219
+m
+7
+interest_9 interest_116 interest_46 interest_148 interest_76 interest_148 interest_115
+guy_232
+m
+8
+interest_115 interest_184 interest_46 interest_115 interest_21 interest_60 interest_46 interest_116
+guy_12
+m
+3
+interest_221 interest_148 interest_46
+guy_13
+m
+5
+interest_9 interest_144 interest_68 interest_76 interest_68
+guy_53
+m
+5
+interest_68 interest_51 interest_140 interest_221 interest_42
+guy_247
+m
+8
+interest_116 interest_140 interest_184 interest_184 interest_95 interest_23 interest_51 interest_60
+guy_11
+m
+5
+interest_60 interest_58 interest_42 interest_51 interest_76
+guy_180
+m
+6
+interest_144 interest_76 interest_116 interest_184 interest_95 interest_140
+guy_130
+m
+7
+interest_148 interest_42 interest_115 interest_60 interest_184 interest_116 interest_42
+guy_166
+m
+7
+interest_140 interest_21 interest_115 interest_148 interest_15 interest_58 interest_144
+girl_231
+f
+2
+interest_9 interest_221
+girl_46
+f
+1
+interest_51
+girl_160
+f
+4
+interest_184 interest_221 interest_9 interest_60
+girl_25
+f
+1
+interest_156
+girl_170
+f
+3
+interest_9 interest_144 interest_144
+girl_100
+f
+0
+
+girl_83
+f
+2
+interest_144 interest_9
+girl_166
+f
+1
+interest_21
+girl_81
+f
+0
+
+girl_151
+f
+1
+interest_23
+girl_88
+f
+0
+
+girl_176
+f
+0
+
+girl_221
+f
+0
+
+girl_44
+f
+3
+interest_148 interest_140 interest_15
+girl_148
+f
+1
+interest_15
+girl_186
+f
+3
+interest_9 interest_116 interest_58
+girl_234
+f
+4
+interest_221 interest_46 interest_221 interest_68
+girl_169
+f
+2
+interest_42 interest_221
+girl_245
+f
+4
+interest_42 interest_60 interest_221 interest_51
+girl_184
+f
+3
+interest_76 interest_51 interest_156
+girl_70
+f
+3
+interest_116 interest_15 interest_9
+girl_5
+f
+2
+interest_156 interest_23
+girl_28
+f
+0
+
+girl_189
+f
+2
+interest_148 interest_116
+girl_150
+f
+3
+interest_58 interest_148 interest_42
