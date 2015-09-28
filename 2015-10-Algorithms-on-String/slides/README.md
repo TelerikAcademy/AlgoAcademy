@@ -34,5 +34,5 @@
 <!-- section start -->
 
 <!-- attr: {class: 'slide-questions', id: 'questions'}  -->
-# Consuming Remote Data
+# Algorithms on Strings
 ## Questions
