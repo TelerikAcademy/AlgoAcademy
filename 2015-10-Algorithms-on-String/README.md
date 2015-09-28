@@ -2,7 +2,7 @@
 
 ##  Course description
 
-The **Algorithms on String** introduces algorithms for working with strings in C++.
+The **Algorithms on Strings** introduces algorithms for working with strings in C++.
 
 Among the algorithms covered are algorithms for parsing and searching
 
@@ -11,6 +11,6 @@ Among the algorithms covered are algorithms for parsing and searching
 
 * Searching algorithms
 	* Rabin-Karp
-	* Knuth–Morris–Pratt
+	* Knuth-Morris-Pratt
 	* Aho-Corasick
 	* Suffix trees/arrays
