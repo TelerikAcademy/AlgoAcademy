@@ -1,6 +1,6 @@
 <!-- section start -->
 
-<!-- atrr: {id: 'title', class: 'slide-title', hasScriptWrapper: true} -->
+<!-- attr: {id: 'title', class: 'slide-title', hasScriptWrapper: true} -->
 # Algorithms on Strings
 ## Subtitle
 <div class="signature">
