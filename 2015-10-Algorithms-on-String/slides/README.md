@@ -28,25 +28,36 @@
 # Searching algorithms
 ## Subtitle
 
+<!-- section start -->
+
 <!-- attr: {} -->
 # Naive search
 * Test for match at every possible position
 	* Simple but inefficient
 	* Quadratic in time
 
+<!-- section start -->
+
 <!-- attr: {} -->
 # Rabin-Karp
 * Uses rolling hash
 	* Linear in time
 		* Quadratic if you check for collisions
+* Capable of multiple pattern search
+
+<!-- section start -->
 
 <!-- attr: {} -->
 # Knuth-Morris-Pratt
 * **TODO**
 
+<!-- section start -->
+
 <!-- attr: {} -->
 # Aho-Corasick
 * **TODO**
+
+<!-- section start -->
 
 <!-- attr: {} -->
 # Suffix trees/arrays
