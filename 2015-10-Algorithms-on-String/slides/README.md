@@ -5,7 +5,7 @@
 ## Subtitle
 <div class="signature">
 	<p class="signature-course">Algorithms on Strings</p>
-	<p class="signature-initiative">Telerik Software Academy</p>
+	<p class="signature-initiative">Telerik Algo Academy</p>
 	<a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
 </div>
 
@@ -16,6 +16,7 @@
 * Parsing
 	* Pattern matching
 * Searching algorithms
+	* Naive string search
 	* Rabin-Karp
 	* Knuth-Morris-Pratt
 	* Aho-Corasick
@@ -24,12 +25,32 @@
 <!-- section start -->
 
 <!-- attr: {class: 'slide-section'} -->
-# Title
-# Subtitle
+# Searching algorithms
+## Subtitle
 
-# Text
-* Some text
-	* and more text
+<!-- attr: {} -->
+# Naive search
+* Test for match at every possible position
+	* Simple but inefficient
+	* Quadratic in time
+
+<!-- attr: {} -->
+# Rabin-Karp
+* Uses rolling hash
+	* Linear in time
+		* Quadratic if you check for collisions
+
+<!-- attr: {} -->
+# Knuth-Morris-Pratt
+* **TODO**
+
+<!-- attr: {} -->
+# Aho-Corasick
+* **TODO**
+
+<!-- attr: {} -->
+# Suffix trees/arrays
+* **TODO**
 
 <!-- section start -->
 
