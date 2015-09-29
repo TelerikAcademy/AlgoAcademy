@@ -45,22 +45,37 @@
 		* Quadratic if you check for collisions
 * Capable of multiple pattern search
 
+# Rabin-Karp
+* **TODO**
+
 <!-- section start -->
 
 <!-- attr: {} -->
 # Knuth-Morris-Pratt
-* **TODO**
+* Makes use of previous match info
+	* "Partial match" table is precomputed
+		* Linear in time
+	* Unneeded checks are skipped
+	* Linear in time
 
 <!-- section start -->
 
 <!-- attr: {} -->
 # Aho-Corasick
-* **TODO**
+* Like KMP, but for multiple patters
+	* "Partial match" prefix tree is precomputed
+	* Each occurrence of each pattern is found
+	* Linear in time
+		* There can be quadratic number of occurrences
 
 <!-- section start -->
 
 <!-- attr: {} -->
-# Suffix trees/arrays
+# Suffix trees
+* **TODO**
+
+<!-- attr: {} -->
+# Suffix arrays
 * **TODO**
 
 <!-- section start -->
