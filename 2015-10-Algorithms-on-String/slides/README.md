@@ -45,7 +45,8 @@
 		* Quadratic if you check for collisions
 * Capable of multiple pattern search
 
-# Rabin-Karp
+<!-- attr: {showInPresentation: true} -->
+<!-- # Rabin-Karp -->
 * **TODO**
 
 <!-- section start -->
