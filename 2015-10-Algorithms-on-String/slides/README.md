@@ -47,7 +47,12 @@
 
 <!-- attr: {showInPresentation: true} -->
 <!-- # Rabin-Karp -->
-* **TODO**
+* The hash of the pattern is computed
+* The hashes of each text substring of the same length is computed
+	* By rolling the hash
+	* Linear in time
+* Hash values are numbers
+	* Simply compared
 
 <!-- section start -->
 
