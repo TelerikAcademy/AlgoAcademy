@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 400 400"
+    width="400" height="400" preserveAspectRatio="xMidYMid meet">
+    <defs>
+        <marker id="TriangleK"
+                viewBox="0 0 10 10" 
+                refX="5" refY="5"
+                markerWidth="3" 
+                markerHeight="3"
+                orient="auto"
+                fill="#333"
+                >
+            <path d="M 0 0 L 10 5 L 0 10 z" />
+        </marker>
+        <marker id="TriangleB"
+                viewBox="0 0 10 10" 
+                refX="5" refY="5"
+                markerWidth="3" 
+                markerHeight="3"
+                orient="auto"
+                fill="#35d"
+                >
+            <path d="M 0 0 L 10 5 L 0 10 z" />
+        </marker>
+        <marker id="TriangleG"
+                viewBox="0 0 10 10" 
+                refX="5" refY="5"
+                markerWidth="3" 
+                markerHeight="3"
+                orient="auto"
+                fill="#3d5"
+                >
+            <path d="M 0 0 L 10 5 L 0 10 z" />
+        </marker>
+        <style type="text/css"><![CDATA[
+            circle.in {
+                stroke: #333;
+                stroke-width: 2;
+                fill: #5af;
+            }
+            circle.out {
+                stroke: #333;
+                stroke-width: 2;
+                fill: #ccc;
+            }
+            line.edges {
+                stroke: #333;
+                stroke-width: 3;
+                marker-end: url(#TriangleK);
+            }
+            line.blues {
+                stroke: #35d;
+                stroke-width: 3;
+                opacity: 0.6;
+                marker-end: url(#TriangleB);
+            }
+            line.greens {
+                stroke: #3d5;
+                stroke-width: 3;
+                opacity: 0.6;
+                marker-end: url(#TriangleG);
+            }
+            text {
+                text-anchor: middle;
+                dominant-baseline: central;
+                font-size: 30px;
+                font-family: sans-serif;
+                fill: #333;
+            }
+        ]]></style>
+    </defs>
+    <line x1="200" y1="50" x2="70.8012573584461" y2="136.13249509436926" class="edges" />
+    <line x1="200" y1="50" x2="200" y2="125" class="edges" />
+    <line x1="200" y1="50" x2="329.1987426415539" y2="136.13249509436926" class="edges" />
+    <line x1="50" y1="150" x2="50" y2="225" class="edges" />
+    <line x1="200" y1="150" x2="161.18033988749895" y2="227.6393202250021" class="edges" />
+    <line x1="200" y1="150" x2="238.81966011250105" y2="227.6393202250021" class="edges" />
+    <line x1="350" y1="150" x2="350" y2="225" class="edges" />
+    <line x1="150" y1="250" x2="150" y2="325" class="edges" />
+    <line x1="250" y1="250" x2="250" y2="325" class="edges" />
+    <line x1="350" y1="250" x2="350" y2="325" class="edges" />
+    <line x2="176.425" y2="59.707" x1="47.226" y1="145.839" class="blues" />
+    <line x2="195" y2="75" x1="195" y1="150" class="blues" />
+    <line x2="218.027" y2="68.027" x1="347.226" y1="154.16" class="blues" />
+    <line x2="176.425" y2="159.707" x1="47.226" y1="245.839" class="blues" />
+    <line x2="64.142" y2="171.213" x1="146.464" y1="253.535" class="blues" />
+    <line x2="328.786" y2="164.142" x1="246.464" y1="246.464" class="blues" />
+    <line x2="72.135" y2="162.649" x1="348.418" y1="254.743" class="blues" />
+    <line x2="64.142" y2="271.213" x1="146.464" y1="353.535" class="blues" />
+    <line x2="328.786" y2="264.142" x1="246.464" y1="346.464" class="blues" />
+    <line x2="68.027" y2="168.027" x1="347.226" y1="354.16" class="blues" />
+    <line x2="71.213" y2="164.142" x1="153.535" y1="246.464" class="greens" />
+    <line x2="335.857" y2="171.213" x1="253.535" y1="253.535" class="greens" />
+    <line x2="75.298" y2="153.162" x1="351.581" y1="245.256" class="greens" />
+    <line x2="71.213" y2="264.142" x1="153.535" y1="346.464" class="greens" />
+    <line x2="71.213" y2="164.142" x1="253.535" y1="346.464" class="greens" />
+    <line x2="73.574" y2="159.707" x1="352.773" y1="345.839" class="greens" />
+    <circle cx="200" cy="50" r= "20" class="out"/>
+    <circle cx="50" cy="150" r= "20" class="in"/>
+    <circle cx="200" cy="150" r= "20" class="out"/>
+    <circle cx="350" cy="150" r= "20" class="in"/>
+    <circle cx="50" cy="250" r= "20" class="in"/>
+    <circle cx="150" cy="250" r= "20" class="out"/>
+    <circle cx="250" cy="250" r= "20" class="in"/>
+    <circle cx="350" cy="250" r= "20" class="out"/>
+    <circle cx="150" cy="350" r= "20" class="in"/>
+    <circle cx="250" cy="350" r= "20" class="in"/>
+    <circle cx="350" cy="350" r= "20" class="in"/>
+    <text x="50" y="150">a</text>
+    <text x="200" y="150">b</text>
+    <text x="350" y="150">c</text>
+    <text x="50" y="250">b</text>
+    <text x="150" y="250">a</text>
+    <text x="250" y="250">c</text>
+    <text x="350" y="250">a</text>
+    <text x="150" y="350">b</text>
+    <text x="250" y="350">a</text>
+    <text x="350" y="350">a</text>
+</svg>

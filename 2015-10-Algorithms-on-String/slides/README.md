@@ -56,7 +56,7 @@
 
 <!-- section start -->
 
-<!-- attr: {} -->
+<!-- attr: {hasScriptWrapper: true} -->
 # Knuth-Morris-Pratt
 * Makes use of previous match info
 	* "Partial match" table is precomputed
@@ -64,15 +64,19 @@
 	* Unneeded checks are skipped
 	* Linear in time
 
+<img src="imgs/kmpexample.jpg" width="40%" style="float:right">
+
 <!-- section start -->
 
-<!-- attr: {} -->
+<!-- attr: {hasScriptWrapper: true} -->
 # Aho-Corasick
 * Like KMP, but for multiple patters
 	* "Partial match" prefix tree is precomputed
 	* Each occurrence of each pattern is found
 	* Linear in time
 		* There can be quadratic number of occurrences
+
+<img src="imgs/Ahocorasick.svg" width="30%" style="float:right">
 
 <!-- section start -->
 
