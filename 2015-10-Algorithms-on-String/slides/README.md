@@ -76,7 +76,7 @@
 	* Linear in time
 		* There can be quadratic number of occurrences
 
-<img src="imgs/Ahocorasick.svg" width="30%" style="float:right">
+<img src="imgs/Ahocorasick.png" width="30%" style="float:right">
 
 <!-- section start -->
 
