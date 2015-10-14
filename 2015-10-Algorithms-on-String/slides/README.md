@@ -80,6 +80,16 @@
 
 <!-- section start -->
 
+<!-- attr: {} -->
+# Suffix trees
+* **TODO**
+
+<!-- attr: {} -->
+# Suffix arrays
+* **TODO**
+
+<!-- section start -->
+
 <!-- attr: {class: 'slide-questions', id: 'questions'}  -->
 # Algorithms on Strings
 ## Questions
