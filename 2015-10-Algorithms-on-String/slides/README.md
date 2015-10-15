@@ -82,11 +82,10 @@
 
 <!-- attr: {} -->
 # Suffix trees
-* **TODO**
+* Compressed trie of prefixes
+	* Linear in time
 
-<!-- attr: {} -->
-# Suffix arrays
-* **TODO**
+<img src="imgs/Suffix_tree.png" width="30%" style="float:right">
 
 <!-- section start -->
 
