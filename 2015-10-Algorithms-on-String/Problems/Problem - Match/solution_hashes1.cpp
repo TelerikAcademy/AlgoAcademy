@@ -1,95 +1,103 @@
-#include<iostream>
-#include<vector>
-#include<set>
-using namespace std;
+#include <iostream>
+#include <vector>
+#include <set>
 
 const int HASHES = 1;
-const int BASE[HASHES] {263};
-const int MOD[HASHES] {(int)1e9+9};
-vector<uint64_t> pow[HASHES] = {{1}};
+const int BASE[HASHES]{ 263 };
+const int MOD[HASHES]{(int)1e9 + 9 };
 
-struct hash_t {
-	uint64_t hash[HASHES];
-	hash_t()
-	{
-		for(auto &x:hash)
-			x = 0;
+std::vector<uint64_t> pow[HASHES] = { { 1 } };
+
+struct Hash {
+    uint64_t hash[HASHES];
+    Hash()
+    {
+	for (auto& x : this->hash) {
+	    x = 0;
 	}
-	void add(char c)
-	{
-		for(int i=0; i<HASHES; ++i)
-			hash[i] = (hash[i] * BASE[i] + c) % MOD[i];
+    }
+    void add(char ch)
+    {
+	for (int i = 0; i < HASHES; ++i) {
+	    this->hash[i] = (this->hash[i] * BASE[i] + ch) % MOD[i];
 	}
-	void rem(char c, int len)
-	{
-		for(int i=0; i<HASHES; ++i)
-			hash[i] = (MOD[i] + hash[i] - c*pow[i][len]%MOD[i]) % MOD[i];
+    }
+    void rem(char ch, int len)
+    {
+	for (int i = 0; i < HASHES; ++i) {
+	    this->hash[i] = MOD[i] + this->hash[i] - ch * pow[i][len] % MOD[i];
+	    this->hash[i] %= MOD[i];
 	}
-	bool operator<(const hash_t &X)
-	const {
-		int i=0;
-		for(; i < HASHES-1; ++i)
-			if(hash[i] != X.hash[i])
-				break;
-		return hash[i] < X.hash[i];
+    }
+    bool operator<(const Hash& x)
+	const
+    {
+	for (int i = 0; i < HASHES - 1; ++i) {
+	    if (this->hash[i] != x.hash[i]) {
+		return this->hash[i] < x.hash[i];
+	    }
 	}
+    }
 };
 
-inline bool check(int M, string &A, string &B)
+inline bool check(int m, std::string& a, std::string& b)
 {
-	set<hash_t> S;
+    std::set<Hash> s;
 
-	hash_t hash;
-	for(int i=0; i<M; ++i)
-		hash.add(A[i]);
-	S.insert(hash);
+    Hash hash;
+    for (int i = 0; i < m; ++i)
+	hash.add(a[i]);
+    s.insert(hash);
 
-	for(unsigned i=M; i<A.size(); ++i)
-	{
-		hash.rem(A[i-M], M-1);
-		hash.add(A[i]);
-		S.insert(hash);
-	}
+    for (unsigned i = m, len = a.size(); i < len; ++i) {
+	hash.rem(a[i - m], m - 1);
+	hash.add(a[i]);
+	s.insert(hash);
+    }
 
-	hash = hash_t();
-	for(int i=0; i<M; ++i)
-		hash.add(B[i]);
-	if(S.find(hash) != S.end()) return true;
+    hash = Hash();
+    for (int i = 0; i < m; ++i) {
+	hash.add(b[i]);
+    }
+    if (s.find(hash) != s.end()) {
+	return true;
+    }
 
-	for(unsigned i=M; i<B.size(); ++i)
-	{
-		hash.rem(B[i-M], M-1);
-		hash.add(B[i]);
-		if(S.find(hash) != S.end()) return true;
-	}
+    for (unsigned i = m, len = b.size(); i < len; ++i) {
+	hash.rem(b[i - m], m - 1);
+	hash.add(b[i]);
+	if (s.find(hash) != s.end())
+	    return true;
+    }
 
-	return false;
+    return false;
 }
 
 int main()
 {
-	string A, B;
-	std::getline(cin, A);
-	std::getline(cin, B);
+    std::string a, b;
+    std::getline(std::cin, a);
+    std::getline(std::cin, b);
 
-	if(A.size() > B.size())
-		swap(A, B);
+    if (a.size() > b.size())
+	swap(a, b);
 
-	for(int k=0; k<HASHES; ++k)
-	{
-		pow[k].resize(A.size());
-		for(unsigned i=1; i<A.size(); ++i)
-			pow[k][i] = pow[k][i-1] * BASE[k] % MOD[k];
+    for (int k = 0; k < HASHES; ++k) {
+	pow[k].resize(a.size());
+	for (unsigned i = 1, len = a.size(); i < a.size(); ++i) {
+	    pow[k][i] = pow[k][i - 1] * BASE[k] % MOD[k];
 	}
+    }
 
-	int L = 0, R = A.size();
-	while(L < R)
-	{
-		int M = (L + R) / 2;
-		if(check(M, A, B))
-			L = M + 1;
-		else R = M;
+    int left = 0, right = a.size();
+    while (left < right) {
+	int middle = (left + right) / 2;
+	if (check(middle, a, b)) {
+	    left = middle + 1;
+	} else {
+	    right = middle;
 	}
+    }
 
-	cout << --L << '\n';
+    std::cout << --left << '\n';
 }
