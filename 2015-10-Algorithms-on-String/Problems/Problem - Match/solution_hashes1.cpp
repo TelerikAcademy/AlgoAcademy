@@ -37,6 +37,7 @@ struct Hash {
 		return this->hash[i] < x.hash[i];
 	    }
 	}
+	return 0;
     }
 };
 
