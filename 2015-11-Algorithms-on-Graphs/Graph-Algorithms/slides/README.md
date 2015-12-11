@@ -3,8 +3,8 @@
 # Graphs Algorithms
 ##  Traversal Algorithms, Dijkstra’s Algorithm, Topological Sorting, Prim and Kruskal
 <div class="signature">
-    <p class="signature-course">Data Structures and Algorithms</p>
-    <p class="signature-initiative">Telerik Software Academy</p>
+    <p class="signature-course">Graph Algorithms</p>
+    <p class="signature-initiative">Telerik Algo Academy</p>
     <a href = "http://academy.telerik.com " class="signature-link">http://academy.telerik.com </a>
 </div>
 
