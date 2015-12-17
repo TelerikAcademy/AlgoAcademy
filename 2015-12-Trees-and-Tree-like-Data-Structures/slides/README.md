@@ -230,8 +230,8 @@ DFS(node)
 # Heaps
 ## Binary heaps
 
-<!-- attr: {} -->
-# Heaps
+<!-- attr: { showInPresentation:true } -->
+<!-- # Heaps -->
 - Operations
   - Basic
     - find min/max (peek)
@@ -267,10 +267,15 @@ DFS(node)
 <!-- section start -->
 <!-- attr: { class:'slide-section' } -->
 # Indexed trees
+## Subtitle
+
+<!-- attr: { showInPresentation:true } -->
+<!-- # Indexed trees -->
 
 <!-- section start -->
-<!-- attr: {} -->
+<!-- attr: { class:'slide-section' } -->
 # Tries
+## Subtitle
 
 <!-- section start -->
 <!-- attr: { id:'questions', class:'slide-section' } -->
