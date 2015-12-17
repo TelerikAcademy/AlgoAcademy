@@ -267,11 +267,30 @@ DFS(node)
 <!-- section start -->
 <!-- attr: { class:'slide-section' } -->
 # Indexed trees
-## Subtitle
+## Binary indexed trees
 
 <!-- attr: { showInPresentation:true } -->
 <!-- # Indexed trees -->
+- The leaves are the values that we build indexed tree for
+- Nodes have values based on their children
+  - Examples: sum, min, max, bitwise xor
+- Operations
+  - Changing value of a leaf - `log(n)`
+  - Query for an interval of leaves - `log(n)`
+    - Example: sum of numbers in interval
+  - Changing values in an interval of leaves - `log(n)`
 
+<!-- attr: { showInPresentation:true } -->
+<!-- # Indexed trees -->
+- Fenwick tree
+  - Half of the values can be dropped
+    - Only if the operation is reversible
+      - Example: sum, bitwise xor
+  - Values are kept in an array
+  - Navigation is done efficiently with:
+    - `index += index & -index;`
+    - `index -= index & -index;`
+ 
 <!-- section start -->
 <!-- attr: { class:'slide-section' } -->
 # Tries
