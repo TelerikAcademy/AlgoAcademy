@@ -222,7 +222,7 @@ DFS(node)
 # Balanced Trees in STL
 - `set<T>`, `multiset<T>`
   - Red-black tree based set of elements
-- `map<K, V>`, `multimap<K,V>`
+- `map<K, V>`, `multimap<K, V>`
   - Red-black tree based map of key-value pairs
 
 <!-- section start -->
