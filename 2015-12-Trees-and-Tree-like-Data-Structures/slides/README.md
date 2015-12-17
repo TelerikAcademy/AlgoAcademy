@@ -226,8 +226,46 @@ DFS(node)
   - Red-black tree based map of key-value pairs
 
 <!-- section start -->
+<!-- attr: { class:'slide-section' } -->
+# Heaps
+## Binary heaps
+
 <!-- attr: {} -->
 # Heaps
+- Operations
+  - Basic
+    - find min/max (peek)
+    - insert (push)
+    - delete min/max
+  - Other
+    - Increase/decrease key
+	- Delete
+	- Merge
+	- Meld
+
+<!-- attr: {} -->
+# Heaps
+- Simple rule
+  - Nodes have bigger or equal value
+    - Min heap
+  - Nodes have smaller or equal value
+    - Max heap
+
+<!-- attr: {} -->
+# Heaps
+- Other types of heaps
+  - Binomial heap
+  - Fibonacci heap
+  - Pairing heap
+
+<!-- attr: {} -->
+# Heaps in STL
+- `priority_queue<T, Container, Compare>`
+  - Container is usually `vector<T>`
+  - Compare is usually `less<T>`
+  - Behaves like max heap
+- `make_heap()`, `push_heap()`, `pop_heap()`, ...
+  - Treat container as heap
 
 <!-- section start -->
 <!-- attr: {} -->
