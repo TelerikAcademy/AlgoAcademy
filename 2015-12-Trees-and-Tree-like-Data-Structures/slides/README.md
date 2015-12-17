@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { class:'slide-title', hasScriptWrapper:true } -->
+<!-- attr: { id:'title', class:'slide-title', hasScriptWrapper:true } -->
 # Trees and Tree-like Data Structures
 ## Trees, Tree-Like Structures, Binary Search Trees, Balanced Trees, Tree Traversals, DFS and BFS
 <div class="signature">
@@ -186,7 +186,7 @@ DFS(node)
 ## Live Demo
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', id:'search-trees' } -->
+<!-- attr: { id:'search-trees', class:'slide-section' } -->
 # Balanced Search Trees
 ## AVL Trees, B-Trees, Red-Black Trees, AA-Trees
 
@@ -227,7 +227,7 @@ DFS(node)
   - Red-black tree based map of key-value pairs
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', id:'heaps' } -->
+<!-- attr: { id:'heaps', class:'slide-section' } -->
 # Heaps
 ## Binary heaps
 
@@ -270,7 +270,7 @@ DFS(node)
 ## Live Demo
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', id:'indexed-trees' } -->
+<!-- attr: { id:'indexed-trees', class:'slide-section' } -->
 # Indexed trees
 ## Binary indexed trees
 
@@ -310,7 +310,7 @@ DFS(node)
 ## Live Demo
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', id:'tries' } -->
+<!-- attr: { id:'tries', class:'slide-section' } -->
 # Tries
 ## Prefix tree
 
