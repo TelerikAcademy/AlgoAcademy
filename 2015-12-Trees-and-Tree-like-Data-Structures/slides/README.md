@@ -264,6 +264,10 @@ DFS(node)
 - `make_heap()`, `push_heap()`, `pop_heap()`, ...
   - Treat container as heap
 
+<!-- attr: { class:'slide-section demo' } -->
+# Heaps
+## Live Demo
+
 <!-- section start -->
 <!-- attr: { class:'slide-section' } -->
 # Indexed trees
@@ -290,11 +294,41 @@ DFS(node)
   - Navigation is done efficiently with:
     - `index += index & -index;`
     - `index -= index & -index;`
+
+<!-- attr: { showInPresentation:true } -->
+<!-- # Indexed trees -->
+- Multidimensional trees are possible
+  - Example: sum of numbers in a subrectangle
+- Can be modified to store segments
+  - Many modifications are possible
+- Easily made persistent
+  - If implemented like a trie
  
+<!-- attr: { class:'slide-section demo' } -->
+# Indexed trees
+## Live Demo
+
 <!-- section start -->
 <!-- attr: { class:'slide-section' } -->
 # Tries
-## Subtitle
+## Prefix tree
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Tries -->
+- Ordered tree data structure
+- Example usages
+  - Represent dictionaries of words
+    - The Aho-Corasick uses a trie to store patterns
+    - Suffix trees are tries that store all suffixes
+  - Behave like hash tables
+    - Without hashes
+- Easily made persistent
+
+<img src="img/250px-Trie_example.svg.png" style="position:absolute;top:55%;left:70%">
+
+<!-- attr: { class:'slide-section demo' } -->
+# Tries
+## Live Demo
 
 <!-- section start -->
 <!-- attr: { id:'questions', class:'slide-section' } -->
