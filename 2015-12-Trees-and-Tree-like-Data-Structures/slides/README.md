@@ -243,16 +243,13 @@ DFS(node)
 	- Merge
 	- Meld
 
-<!-- attr: {} -->
-# Heaps
-- Simple rule
-  - Nodes have bigger or equal value
-    - Min heap
-  - Nodes have smaller or equal value
-    - Max heap
+<!-- attr: { showInPresentation:true } -->
+<!-- # Heaps -->
+- Nodes have smaller/bigger or equal value than their children
+  - Depending on wheter it is min-heap or max-heap
 
-<!-- attr: {} -->
-# Heaps
+<!-- attr: { showInPresentation:true } -->
+<!-- # Heaps -->
 - Other types of heaps
   - Binomial heap
   - Fibonacci heap
@@ -263,12 +260,12 @@ DFS(node)
 - `priority_queue<T, Container, Compare>`
   - Container is usually `vector<T>`
   - Compare is usually `less<T>`
-  - Behaves like max heap
+  - Behaves like max-heap
 - `make_heap()`, `push_heap()`, `pop_heap()`, ...
   - Treat container as heap
 
 <!-- section start -->
-<!-- attr: {} -->
+<!-- attr: { class:'slide-section' } -->
 # Indexed trees
 
 <!-- section start -->
