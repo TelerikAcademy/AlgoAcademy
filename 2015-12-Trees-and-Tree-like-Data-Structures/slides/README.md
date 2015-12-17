@@ -15,12 +15,13 @@
   - Implementation
   - Traversal
 - Search Trees
-  - Balanced Binary Search Trees
+  - Balanced Search Trees
+    - AVL trees
     - Red-black trees
       - STL implementations
         - `set`, `multiset`
         - `map`, `multimap`
-    - AVL trees
+  - AA-trees
   - B-trees
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
@@ -36,7 +37,7 @@
 - Tries
 
 <!-- section start -->
-<!-- attr: { class:'slide-section' } -->
+<!-- attr: { class:'slide-section', id:'tree-overview' } -->
 # Trees
 ## Overview
 
@@ -185,7 +186,7 @@ DFS(node)
 ## Live Demo
 
 <!-- section start -->
-<!-- attr: { class:'slide-section' } -->
+<!-- attr: { class:'slide-section', id:'search-trees' } -->
 # Balanced Search Trees
 ## AVL Trees, B-Trees, Red-Black Trees, AA-Trees
 
@@ -226,7 +227,7 @@ DFS(node)
   - Red-black tree based map of key-value pairs
 
 <!-- section start -->
-<!-- attr: { class:'slide-section' } -->
+<!-- attr: { class:'slide-section', id:'heaps' } -->
 # Heaps
 ## Binary heaps
 
@@ -269,7 +270,7 @@ DFS(node)
 ## Live Demo
 
 <!-- section start -->
-<!-- attr: { class:'slide-section' } -->
+<!-- attr: { class:'slide-section', id:'indexed-trees' } -->
 # Indexed trees
 ## Binary indexed trees
 
@@ -309,7 +310,7 @@ DFS(node)
 ## Live Demo
 
 <!-- section start -->
-<!-- attr: { class:'slide-section' } -->
+<!-- attr: { class:'slide-section', id:'tries' } -->
 # Tries
 ## Prefix tree
 
