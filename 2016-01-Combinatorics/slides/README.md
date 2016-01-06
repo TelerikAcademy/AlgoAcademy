@@ -26,14 +26,14 @@
 - `Combinatorics` is a branch of mathematics
   - Concerning the study of finite or countable discrete structures
 - Combinatorial problems arise inmany areas of pure mathematics
-  - Notably in algebra, probabilitytheory, topology, geometry,physics, chemistry, biology, etc.
+  - Notably in algebra, probabilitytheory, topology, geometry, physics, chemistry, biology, etc.
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Combinations
 - "My fruit salad is a combination of grapes, strawberries and bananas" 
   - We don't care what orderthe fruits are in
-    - "bananas, grapesand strawberries" or"grapes, bananas andstrawberries" &rarr; it isthe same salad
-- If the `order doesn't `matter, it is a `combination`
+    - "bananas, grapesand strawberries" or"grapes, bananas andstrawberries" &rarr; it is the same salad
+- If the `order doesn't` matter, it is a `combination`
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Permutations / Variations
@@ -41,7 +41,7 @@
   - Now we do care about the `order`
   - "8453" would not work,nor would "4538"
   - It has to be exactly 4-3-8-5
-- If the `order does matter `it is a `permutation` / `variation`
+- If the `order does matter` it is a `permutation` / `variation`
   - A permutation / variation is an ordered Combination
 - Easy to remember: "Permutation ... Position"
 
@@ -78,7 +78,7 @@
 # Variations
 - `Variations (with repetitions)`
   - Easiest to calculate
-- When you have `n` things tochoose from ... you have`n` choices each time!
+- When you have `n` things tochoose from ... you have `n` choices each time!
 - When choosing k of them,the variations are:
   - `n` × `n` × ... × `n` (k times)
   - 	       nk
@@ -125,7 +125,7 @@
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Variations without Repetition
 - Example: 
-  - How many words of 2 `different `letters can you make with 4 letters { a, b, c, d }?
+  - How many words of 2 `different` letters can you make with 4 letters { a, b, c, d }?
 - How to generate variationswithout repetitions?
   - The same way like variations with repetitions
   - Just use each element at most once
@@ -160,12 +160,12 @@
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Permutations
 - Less number of available choices each time
-- What order could`16 `pool balls be in?
+- What order could `16` pool balls be in?
 - After choosing, ball 9we can't choose the same ball again
-  - First choice  = `16 `possibilities
-  - Second choice = `15 `possibilities, etc., etc.
+  - First choice  = `16` possibilities
+  - Second choice = `15` possibilities, etc., etc.
 - Total permutations:
-  - 16 × 15 × 14 ×...× 2 × 1 = `16! `= 20 922 789 888 000
+  - 16 × 15 × 14 ×...× 2 × 1 = `16!` = 20 922 789 888 000
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Generating Permutations
@@ -378,7 +378,7 @@
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Binary Vectors
-- Some problems can be reformulated in terms of `binary vectors `–` `(1, 0, 1, 1, 1, 0, …)
+- Some problems can be reformulated in terms of `binary vectors` – (1, 0, 1, 1, 1, 0, …)
 - Combinatorial properties of binary vectors:
   - Number of binary vectors of length n: 2n.
   - Number of binary vectors of length `n` and with `k` `1` is C(n, k) (we choose k positions for n `1`)
