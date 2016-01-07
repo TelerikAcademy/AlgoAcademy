@@ -1,0 +1,6 @@
+There is only one number
+10
+3
+13
+There is only one number
+There are no numbers
