@@ -309,7 +309,7 @@ combinations(0, 0);
 - Build the triangle: start with "1" atthe top, then continue placingnumbers below it in a triangular pattern
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Pascal's Triangle's (2)
+<!-- # Pascal's Triangle -->
 - The triangle is symmetrical
   - Numbers on the left side haveidentical matching numbers onthe right side, like a mirror image
 - Diagonals:
