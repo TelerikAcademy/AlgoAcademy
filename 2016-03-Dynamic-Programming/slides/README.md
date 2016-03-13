@@ -97,7 +97,7 @@ int maxNumber(vector<int>& numbers)
 # Divide-and-Conquer
 * `Divide`: If the input size is too large to deal with in a straightforward manner
   * Divide the problem into two or more disjointed sub-problems
-* `Conquer`: conquer recursively to solve the sub-problems
+* `Conquer`: conquer(solve) the sub-problems when they are small enough
 * `Combine`: Take the solutions to the sub-problems and "merge" these solutions into a solution for the original problem
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
@@ -136,11 +136,12 @@ void mergeSort(int* arr, int left, int right) {
 <!-- attr: { class:'slide-section', showInPresentation:true, style:'' } -->
 # Dynamic Programming Concepts
 
-<!-- attr: { showInPresentation:true, style:'' } -->
+<!-- attr: { showInPresentation:true, style:'font-size: 0.9em' } -->
 # Dynamic Programming
 * How dynamic programming (DP) works?
-  * Approach to solve problems
-  * Store partial solutions of the smaller problems
+  * Approach to solving complex problems
+  * Solve the problem by solving smaller problems
+    * Avoid solving smaller problems twice by storing partial solutions
   * Usually they are solved bottom-up
 * Steps to designing a DP algorithm:
   * Characterize `optimal substructure`
@@ -544,15 +545,24 @@ void printLCS(int i, int j, int** c)
 * Many other string and graph algorithms
 * [en.wikipedia.org/wiki/Dynamic_programming](http://en.wikipedia.org/wiki/Dynamic_programming)
 
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.85em' } -->
+# Demo: 2D Knapsack Problem
+ * [Famous DP problem](https://en.wikipedia.org/wiki/Knapsack_problem)
+   * Given a maximum weight you can carry and a set of items with values and weights, how much value can you carry without violating the weight constraint?
+ * Solutions:
+   * Recursive - intuitive, but slow - O(2<sup>N</sup>) without memoization
+   * DP solution - uses a lookup table, runs in O(N &#42; W) time, where **N** is the number of items and **W** is the capacity of the knapsack 
+   
+<img class="slide-image" src="imgs/knapsack.png" style="width:25%; top:65%; left: 60%" />
 
 <!-- section start -->
 <!-- attr: { showInPresentation:true, style:'font-size:0.95em' } -->
 # Summary
-* Divide-and-conquer method for algorithm design
-* Dynamic programming is a way of improving on inefficient divide-and-conquer algorithms
-* Dynamic programming is applicable when the sub-problems are dependent, that is, when sub-problems share sub-sub-problem
-* Recurrent functions can be solved efficiently
-* Longest increasing subsequence and Longest common subsequence problems can be solved efficiently using dynamic programming approach
+* **Divide-and-conquer** method for algorithm design
+* **DP** is a way of `improving` on inefficient divide-and-conquer algorithms
+* **DP** is applicable when the sub-problems are dependent, that is, `when sub-problems share sub-sub-problems`
+* **Recurrent functions** can be solved `efficiently`
+* **Longest increasing** and **Longest common** subsequence problems `can be solved efficiently` using **DP** approach
 
 
 <!-- section start -->
