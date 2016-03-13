@@ -39,47 +39,51 @@
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Finding Max Element -<br />The Stupid Way
-```cs
-int FindMaxStupid(int[] numbers)
+```cpp
+int findMaxStupid(vector<int>& numbers)
 {
-    foreach (var number in numbers)
+    for(int num: numbers)
     {
-        var currentNumberIsBest = true;
-        
-        foreach (var candidate in numbers)
-            if (number < candidate)
+        bool currentNumberIsBest = true;
+
+        for(int candidate: numbers)
+            if(num < candidate)
                 currentNumberIsBest = false;
-                
-        if (currentNumberIsBest)
-            return number;
+
+        if(currentNumberIsBest)
+            return num;
     }
 
-    return int.MinValue;
+    return numeric_limits<int>::min();
 }
 ```
   
-<!-- attr: { showInPresentation:true, style:'font-size:0.9em' } -->
+<!-- attr: { showInPresentation:true, style:'font-size: 36px', hasScriptWrapper:true } -->
 # Finding Min and Max Element
 * Minimum element
 
-```cs
-int FindMin(int[] numbers)
+```cpp
+int minNumber(vector<int>& numbers)
 {
-    int min = numbers[0];
-    for (int i = 1; i < numbers.Length; i++)
-        if (numbers[i] < min) min = numbers[i];
+    int min = numbers.at(0);
+    for(int candidate: numbers)
+        if(candidate < min)
+            min = candidate;
+
     return min;
 }
 ```
 
 * Maximum element
 
-```cs
-int FindMax(int[] numbers)
+```cpp
+int maxNumber(vector<int>& numbers)
 {
-    int max = numbers[0];
-    for (int i = 1; i < numbers.Length; i++)
-        if (numbers[i] > max) max = numbers[i];
+    int max = numbers.at(0);
+    for(int candidate: numbers)
+        if(candidate > max)
+            max = candidate;
+
     return max;
 }
 ```
@@ -101,13 +105,13 @@ int FindMax(int[] numbers)
 * MergeSort
   * The sub-problems are independent, all different
 
-```cs
-void MergeSort(int[] arr, int left, int right) {
+```cpp
+void mergeSort(int* arr, int left, int right) {
     if (right > left) {
         int mid = (right + left) / 2;
-        MergeSort(arr, left, mid);
-        MergeSort(arr, (mid+1), right);
-        Merge(arr, left, (mid+1), right);
+        mergeSort(arr, left, mid);
+        mergeSort(arr, (mid+1), right);
+        merge(arr, left, (mid+1), right);
     }
 }
 ```
@@ -186,12 +190,12 @@ void MergeSort(int[] arr, int left, int right) {
 
 <img class="slide-image" src="imgs/fibonacci-tree.png" style="width:55%; bottom:0%; left:20%" />
 
-```cs
-decimal Fibonacci(int n)
+```cpp
+long fibonacci(int n)
 {
     if (n == 0) return 0;
     if (n == 1) return 1;
-    return Fibonacci(n - 1) + Fibonacci(n - 2);
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 ```
 
@@ -202,13 +206,13 @@ decimal Fibonacci(int n)
 * This saves a lot of useless calculations!
 * http://en.wikipedia.org/wiki/Memoization
 
-```cs
-decimal Fibonacci(int n)
+```cpp
+long fibonacci(int n)
 {
     if (memo[n] != 0) return memo[n];
     if (n == 0) return 0;
     if (n == 1) return 1;
-    memo[n] = Fibonacci(n - 1) + Fibonacci(n - 2);
+    memo[n] = fibonacci(n - 1) + fibonacci(n - 2);
     return memo[n];
 }
 ```
@@ -260,9 +264,8 @@ decimal Fibonacci(int n)
 
 <!-- attr: { showInPresentation:true, style:'font-size:0.9em' } -->
 # Subset Sum Problem - Recursive
-
-```cs
-bool IsSubsetSumRecursive(int[] set, int n, int sum)
+```cpp
+bool isSubsetSumRecursive(int* set, int n, int sum)
 {
    // Base Cases
    if (sum == 0)
@@ -273,39 +276,43 @@ bool IsSubsetSumRecursive(int[] set, int n, int sum)
    // If last element is greater than sum, then ignore it
    if (set[n - 1] > sum)
    {
-       return IsSubsetSumRecursive(set, n - 1, sum);
+       return isSubsetSumRecursive(set, n - 1, sum);
    }
    /* check if sum can be obtained by any of the following
       (a) including the last element
       (b) excluding the last element   */
-   return IsSubsetSumRecursive(set, n - 1, sum)
-       || IsSubsetSumRecursive(set, n - 1, sum - set[n - 1]);
+   return isSubsetSumRecursive(set, n - 1, sum)
+       || isSubsetSumRecursive(set, n - 1, sum - set[n - 1]);
 }
 ```
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size:0.9em' } -->
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 38px' } -->
 # Subset Sum Problem - DP
 
-```cs
-bool IsSubsetSum(int[] set, int sum)
+```cpp
+bool isSubsetSum(vector<int>& set, int sum)
 {
-    const int NotSet = -1;
-    var sumOfAll = set.Sum();
-    var last = new int[sumOfAll + 1];
-    var currentSum = 0;
-    for (var i = 1; i < sumOfAll; i++) last[i] = NotSet;
-    for (var i = 0; i < set.Length; i++)
+    int sumOfAll = 0;
+    for(int num: set) sumOfAll += num;
+    int* last = new int[sumOfAll + 1];
+    int currentSum = 0;
+    for (int i = 1; i < sumOfAll; i++) last[i] = -1;
+    for (int i = 0; i < set.size(); i++)
     {
-        for (var j = currentSum; j + 1 > 0; j--)
+        for (int j = currentSum; j + 1 > 0; j--)
         {
-            if (last[j] != NotSet &&
-                last[j + set[i]] == NotSet)
+            if (last[j] != -1 &&
+                last[j + set.at(i)] == -1)
             {
-                last[j + set[i]] = i;
+                last[j + set.at(i)] = i;
             }
         }
-        currentSum += set[i];
+        currentSum += set.at(i);
     }
-    return last[sum] != NotSet;
+
+    bool result = last[sum] != -1;
+    delete[] last;
+    return result;
 }
 ```
 
@@ -320,7 +327,7 @@ bool IsSubsetSum(int[] set, int sum)
 <!-- attr: { showInPresentation:true, style:'font-size:0.9em' } -->
 # Longest Increasing Subsequence
 * Find a subsequence of a given sequence in which the subsequence elements are in increasing order, and in which the subsequence is as long as possible
-    * This subsequence is not necessarily contiguous nor unique
+    * This subsequence is not necessarily continuous nor unique
 * The longest increasing subsequence problem is solvable in time `O(n*log(n))` [[more info](http://stackoverflow.com/a/7614385/1862812)]
 * We will review one simple DP algorithm with complexity `O(n*n)`
 * Example: `1`, 8, `2`, 7, `3`, `4`, 1, ` 6`
@@ -328,9 +335,9 @@ bool IsSubsetSum(int[] set, int sum)
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # LIS – Dynamic Programming
 
-```cs
+```cpp
 L[0] = 1; P[0] = NoPrevious;
-for (int i = 1; i < S.Length; i++)
+for (int i = 1; i < numbersCount; i++)
 {
     L[i] = 1;
     P[i] = NoPrevious;
@@ -355,19 +362,19 @@ for (int i = 1; i < S.Length; i++)
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # LIS – Restore the Sequence
 
-```cs
-void PrintLongestIncreasingSubsequence(
-    int[] sequence, int[] predecessor, int maxIndex)
+```cpp
+void printLongestIncreasingSubsequence(
+    int* sequence, int* predecessor, int maxIndex)
 {
-    var lis = new List<int>();
-    while (maxIndex != NoPrevious)
+    auto lis = new vector<int>();
+    while (maxIndex != -1)
     {
-        lis.Add(sequence[maxIndex]);
+        lis->push_back(sequence[maxIndex]);
         maxIndex = predecessor[maxIndex];
     }
-    lis.Reverse();
-    Console.WriteLine("subsequence = "
-                        + string.Join(", ", lis));
+    cout << "subsequence = ";
+    for(int n: *lis)
+        cout << n << ", ";
 }
 ```
 
@@ -395,9 +402,9 @@ void PrintLongestIncreasingSubsequence(
   * Let `S`<sub>`1`</sub>`'` = `S`<sub>`1`</sub> with `C`<sub>`1`</sub> "chopped-off"
   * Let `S`<sub>`2`</sub>`'` = `S`<sub>`2`</sub> with `C`<sub>`2`</sub> "chopped-off"
 * There are three recursive subproblems:
-  * `L`<sub>`1`</sub> = `LCS(S`<sub>`1`</sub>`',S`<sub>`2`</sub>`)`
-  * `L`<sub>`2`</sub> = `LCS(S`<sub>`1`</sub>`,S`<sub>`2`</sub>`')`
-  * `L`<sub>`3`</sub> = `LCS(S`<sub>`1`</sub>`',S`<sub>`2`</sub>`')`
+  * `L`<sub>`1`</sub> = `LCS(S`<sub>`1`</sub>`', S`<sub>`2`</sub>`)`
+  * `L`<sub>`2`</sub> = `LCS(S`<sub>`1`</sub>`, S`<sub>`2`</sub>`')`
+  * `L`<sub>`3`</sub> = `LCS(S`<sub>`1`</sub>`', S`<sub>`2`</sub>`')`
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # LCS – Recursive Approach -->
@@ -429,17 +436,17 @@ void PrintLongestIncreasingSubsequence(
 # LCS table – base cases filled in
 * Each empty string has nothing in common with any other string, therefor the 0-length strings will have values `0` in the LCS table
 
-```cs
+```cpp
 for (i = 0; i <= n; i++)
 {
-    c[i, 0] = 0;
+    c[i][0] = 0;
 }
 ```
 
-```cs
+```cpp
 for (i = 0; i <= m; i++)
 {
-    c[0, i] = 0;
+    c[0][i] = 0;
 }
 ```
 
@@ -448,21 +455,20 @@ for (i = 0; i <= m; i++)
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # LCS – Dynamic Programming
 
-```cs
-int[,] LCS(string firstString, string secondString)
+```cpp
+int** LCS(char* first, char* second, int n, int m)
 {
-  var m = firstString.Length;
-  var n = secondString.Length;
-  var c = new int[m + 1, n + 1];
-  
-  for (var i = 1; i <= m; i++)
+  auto c = new int*[m + 1];
+  c[0] = new int[n + 1];
+  for (int i = 1; i <= m; i++)
   {
-    for (var j = 1; j <= n; j++)
+    c[i] = new int[n + 1];
+    for (int j = 1; j <= n; j++)
     {
-       if (firstString[i - 1] == secondString[j - 1])
-          c[i, j] = c[i - 1, j - 1] + 1;
+       if (first[i - 1] == second[j - 1])
+          c[i][j] = c[i - 1][j - 1] + 1;
        else
-          c[i, j] = Math.Max(c[i, j - 1], c[i - 1, j]);
+          c[i][j] = max(c[i][j - 1], c[i - 1][j]);
     }
   }
   return c; // Answer in c[m, n]
@@ -474,22 +480,22 @@ int[,] LCS(string firstString, string secondString)
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # LCS – Reconstruct the Answer
 
-```cs
-void PrintLCS(int i, int j, int[,] c)
+```cpp
+void printLCS(int i, int j, int** c)
 {
     if (i == 0 || j == 0) return;
-    if (FirstString[i - 1] == SecondString[j - 1])
+    if (first[i - 1] == second[j - 1])
     {
-        PrintLCS(i - 1, j - 1, c);
-        Console.Write(SecondString[j - 1]);
+        printLCS(i - 1, j - 1, c);
+        cout << second[j - 1];
     }
-    else if (c[i, j] == c[i - 1, j])
+    else if (c[i][j] == c[i - 1][j])
     {
-        PrintLCS(i - 1, j, c);
+        printLCS(i - 1, j, c);
     }
     else
     {
-        PrintLCS(i, j - 1, c);
+        printLCS(i, j - 1, c);
     }
 }
 ```
