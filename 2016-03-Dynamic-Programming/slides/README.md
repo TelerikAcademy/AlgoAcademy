@@ -58,7 +58,7 @@ int findMaxStupid(vector<int>& numbers)
 }
 ```
   
-<!-- attr: { showInPresentation:true, style:'font-size: 36px' } -->
+<!-- attr: { showInPresentation:true, style:'font-size: 36px', hasScriptWrapper:true } -->
 # Finding Min and Max Element
 * Minimum element
 
@@ -265,7 +265,6 @@ long fibonacci(int n)
 
 <!-- attr: { showInPresentation:true, style:'font-size:0.9em' } -->
 # Subset Sum Problem - Recursive
-
 ```cpp
 bool isSubsetSumRecursive(int* set, int n, int sum)
 {
@@ -287,6 +286,7 @@ bool isSubsetSumRecursive(int* set, int n, int sum)
        || isSubsetSumRecursive(set, n - 1, sum - set[n - 1]);
 }
 ```
+
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 38px' } -->
 # Subset Sum Problem - DP
 
@@ -403,9 +403,9 @@ void printLongestIncreasingSubsequence(
   * Let `S`<sub>`1`</sub>`'` = `S`<sub>`1`</sub> with `C`<sub>`1`</sub> "chopped-off"
   * Let `S`<sub>`2`</sub>`'` = `S`<sub>`2`</sub> with `C`<sub>`2`</sub> "chopped-off"
 * There are three recursive subproblems:
-  * `L`<sub>`1`</sub> = `LCS(S`<sub>`1`</sub>`',S`<sub>`2`</sub>`)`
-  * `L`<sub>`2`</sub> = `LCS(S`<sub>`1`</sub>`,S`<sub>`2`</sub>`')`
-  * `L`<sub>`3`</sub> = `LCS(S`<sub>`1`</sub>`',S`<sub>`2`</sub>`')`
+  * `L`<sub>`1`</sub> = `LCS(S`<sub>`1`</sub>`', S`<sub>`2`</sub>`)`
+  * `L`<sub>`2`</sub> = `LCS(S`<sub>`1`</sub>`, S`<sub>`2`</sub>`')`
+  * `L`<sub>`3`</sub> = `LCS(S`<sub>`1`</sub>`', S`<sub>`2`</sub>`')`
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # LCS – Recursive Approach -->
