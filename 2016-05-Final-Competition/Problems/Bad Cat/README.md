@@ -9,6 +9,8 @@ Please help me **find the smallest possible number that corresponds to the digit
 The number was valid integer number with no leading zeroes.
 There is always a possible solution.
 
+![Cat](imgs/cat.png)
+
 ## Input
 
 - The input data should be read from the console.
